@@ -4,6 +4,7 @@ import com.krakedev.figuras.Cuadrado;
 import com.krakedev.figuras.Figura;
 import com.krakedev.figuras.Graficador;
 import com.krakedev.figuras.Rectangulo;
+import com.krakedev.figuras.TrianguloRectangulo;
 
 public class TestGraficar {
 
@@ -26,8 +27,16 @@ public class TestGraficar {
                 6
         );
 
+        TrianguloRectangulo triangulo = new TrianguloRectangulo(
+                "Triangulo Rectangulo",
+                "Amarillo",
+                3,
+                4
+        );
+
         graficador.graficar(figura);
         graficador.graficar(cuadrado);
         graficador.graficar(rectangulo);
+        graficador.graficar(triangulo);
     }
 }
