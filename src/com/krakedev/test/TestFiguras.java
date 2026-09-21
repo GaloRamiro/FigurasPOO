@@ -10,7 +10,7 @@ public class TestFiguras {
 
 		Figura figura = new Figura("Figura", "Verde");
 
-		Cuadrado cuadrado = new Cuadrado("Cuadrado", "Rojo");
+		Cuadrado cuadrado = new Cuadrado("Cuadrado", "Rojo",5);
 
 		Triangulo triangulo = new Triangulo("Triangulo", "Azul");
 
