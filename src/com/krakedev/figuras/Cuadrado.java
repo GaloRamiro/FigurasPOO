@@ -9,6 +9,11 @@ public class Cuadrado extends Figura {
 		this.lado = lado;
 	}
 
+	@Override
+	public int calcularPerimetro() {
+		return 4 * lado;
+	}
+
 	public int getLado() {
 		return lado;
 	}
@@ -17,7 +22,4 @@ public class Cuadrado extends Figura {
 		this.lado = lado;
 	}
 
-	public int calcularPerimetro() {
-		return 4 * lado;
-	}
 }

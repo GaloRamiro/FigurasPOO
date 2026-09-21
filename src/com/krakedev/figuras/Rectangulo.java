@@ -25,7 +25,7 @@ public class Rectangulo extends Figura {
 	public void setAltura(int altura) {
 		this.altura = altura;
 	}
-
+	@Override
 	public int calcularPerimetro() {
 		return 2 * base + 2 * altura;
 	}
