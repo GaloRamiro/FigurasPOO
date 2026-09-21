@@ -6,22 +6,16 @@ import com.krakedev.figuras.Triangulo;
 
 public class TestFiguras {
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-        Figura figura = new Figura();
-        figura.setNombre("Figura");
-        figura.setColor("Verde");
+		 Figura figura = new Figura("Figura", "Verde");
 
-        Cuadrado cuadrado = new Cuadrado();
-        cuadrado.setNombre("Cuadrado");
-        cuadrado.setColor("Rojo");
+	        Cuadrado cuadrado = new Cuadrado("Cuadrado", "Rojo");
 
-        Triangulo triangulo = new Triangulo();
-        triangulo.setNombre("Triangulo");
-        triangulo.setColor("Azul");
+	        Triangulo triangulo = new Triangulo("Triangulo", "Azul");
 
-        System.out.println(figura);
-        System.out.println(cuadrado);
-        System.out.println(triangulo);
-    }
+	        System.out.println(figura);
+	        System.out.println(cuadrado);
+	        System.out.println(triangulo);
+	}
 }
