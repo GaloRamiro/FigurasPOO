@@ -3,6 +3,7 @@ package com.krakedev.test;
 import com.krakedev.figuras.Cuadrado;
 import com.krakedev.figuras.Figura;
 import com.krakedev.figuras.Graficador;
+import com.krakedev.figuras.Hexagono;
 import com.krakedev.figuras.Rectangulo;
 import com.krakedev.figuras.TrianguloRectangulo;
 
@@ -32,8 +33,15 @@ public class TestGraficar {
                 4
         );
 
+        Figura hexagono = new Hexagono(
+                "Hexagono",
+                "Verde",
+                4
+        );
+
         graficador.graficar(cuadrado);
         graficador.graficar(rectangulo);
         graficador.graficar(triangulo);
+        graficador.graficar(hexagono);
     }
 }
